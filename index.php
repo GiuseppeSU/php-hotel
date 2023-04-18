@@ -39,17 +39,7 @@ $hotels = [
     ],
 
 ];
-
-
-
-
-
-
-
 ?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -65,7 +55,6 @@ $hotels = [
 <body class="bg-secondary">
 
     <h1 class="text-center mt-5 text-light">Hotels:</h1>
-
     <table class="table m-auto mt-5 table-bordered border-light w-75">
         <thead>
             <tr class="text-center">
@@ -94,7 +83,6 @@ $hotels = [
                     <td>
                         <?php echo $hotel['distance_to_center'] ?>
                     </td>
-
                 </tr>
             <?php } ?>
         </tbody>
